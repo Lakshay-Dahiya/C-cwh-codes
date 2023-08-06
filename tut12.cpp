@@ -8,7 +8,12 @@ int main(){
     cout<<&a<<endl; //address of a
     cout<<b<<endl;  //address of a
     cout<<&b<<endl; //address of b
-    cout<<*b<<endl; //value of a
+    cout<<*b<<endl<<endl; //value of a
 
+    int **c = &b;
+    cout<<"Pointer to Pointer"<<endl;
+    cout<<c<<endl;  //address of b
+    cout<<*c<<endl; //address of a (value at address c)
+    cout<<**c<<endl; //value at address value at (value at 'c') or value of a
     return 0;
 }
