@@ -9,6 +9,6 @@ struct employee{
 };
 
 int main(){
-    
+    cout<<"structure";
     return 0;
 }
