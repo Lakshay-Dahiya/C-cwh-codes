@@ -3,7 +3,7 @@ using namespace std;
 
 int c =48;
 int main(){
-    int a;
+   /* int a;
     int b;
     int c;
     cout<<"enter value of a"<<endl;
@@ -19,7 +19,12 @@ int main(){
     float x = 77;
     float &y = x;
     cout<<x<<endl;
-    cout<<y<<endl;
+    cout<<y<<endl; */
+
+    int p = 40;
+    int q = 34.9;
+    float r = p+q; //r=74 
+    cout<<r<<endl;
 
 
     return 0;
