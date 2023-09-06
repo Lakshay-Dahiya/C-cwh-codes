@@ -2,7 +2,7 @@
 using namespace std;
 int glo = 9;
 void sum(){
-    int a;
+    //int a;
     cout<<glo<<endl;
 }
 int main(){
